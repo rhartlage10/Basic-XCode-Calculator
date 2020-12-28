@@ -13,6 +13,7 @@
 		553382B82517E0190001FB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553382B62517E0190001FB38 /* Main.storyboard */; };
 		553382BA2517E01C0001FB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553382B92517E01C0001FB38 /* Assets.xcassets */; };
 		553382BD2517E01C0001FB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553382BB2517E01C0001FB38 /* LaunchScreen.storyboard */; };
+		55C4C83125220DBB0029A50F /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C4C83025220DBB0029A50F /* Calculations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		553382B92517E01C0001FB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553382BC2517E01C0001FB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553382BE2517E01C0001FB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C4C83025220DBB0029A50F /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				553382AF2517E0190001FB38 /* Project00-RonniHartlage */,
+				553382B92517E01C0001FB38 /* Assets.xcassets */,
 				553382AE2517E0190001FB38 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +59,39 @@
 		553382AF2517E0190001FB38 /* Project00-RonniHartlage */ = {
 			isa = PBXGroup;
 			children = (
+				553382BE2517E01C0001FB38 /* Info.plist */,
+				553382C62517E0E00001FB38 /* Model */,
+				553382C52517E0640001FB38 /* View */,
+				553382C42517E0450001FB38 /* Controller */,
+			);
+			path = "Project00-RonniHartlage";
+			sourceTree = "<group>";
+		};
+		553382C42517E0450001FB38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				553382B02517E0190001FB38 /* AppDelegate.swift */,
 				553382B22517E0190001FB38 /* SceneDelegate.swift */,
 				553382B42517E0190001FB38 /* ViewController.swift */,
-				553382B62517E0190001FB38 /* Main.storyboard */,
-				553382B92517E01C0001FB38 /* Assets.xcassets */,
-				553382BB2517E01C0001FB38 /* LaunchScreen.storyboard */,
-				553382BE2517E01C0001FB38 /* Info.plist */,
 			);
-			path = "Project00-RonniHartlage";
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		553382C52517E0640001FB38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				553382B62517E0190001FB38 /* Main.storyboard */,
+				553382BB2517E01C0001FB38 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		553382C62517E0E00001FB38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55C4C83025220DBB0029A50F /* Calculations.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				553382B52517E0190001FB38 /* ViewController.swift in Sources */,
 				553382B12517E0190001FB38 /* AppDelegate.swift in Sources */,
 				553382B32517E0190001FB38 /* SceneDelegate.swift in Sources */,
+				55C4C83125220DBB0029A50F /* Calculations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
